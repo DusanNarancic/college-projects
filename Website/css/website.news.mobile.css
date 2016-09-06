@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Title
+{
+	position: relative;
+	text-align: center;
+	left: 30px;
+	top: 80px;
+	font-size: 24px;
+	font-family: Arial;
+	color: #ffffff;
+}
+
+.FirstCar
+{
+	display:none;
+	position:relative;
+	left: 100px;
+	top: 321px;
+	max-width:60%;
+	height: auto;
+}
+
+.SecondCar
+{
+	display:none;
+	position: relative;
+	text-align: center;
+	left: 575px;
+	top: 321px;
+	max-width: 60%;
+	height: auto;
+}
+
+.ThirdCar
+{
+	display:none;
+	position: relative;
+	text-align: center;
+	left: 1045px;
+	top: 321px;
+	max-width: 60%;
+	height: auto;
+}
+
+
+.FirstTitle
+{
+	position: relative;
+	text-align: center;
+	left: 30px;
+	top:140px;
+	font-size: 24px;
+	font-family: Arial;
+	color: #f5f6fb;
+}
+
+.SecondTitle
+{
+	position: relative; 
+	text-align: center;
+	top: 100px;
+	left: 70px;
+	font-size: 24px;
+	font-family: Arial;
+	color: #f5f6fb;
+}
+
+
+.ThirdTitle
+{
+	position: relative;
+	text-align: center;
+	left: 44px;
+	top: 100px;
+	font-size: 24px;
+	font-family: Arial;
+	color: #f5f6fb;
+}
+
+h3{
+	display:block;
+	position: relative;
+	text-align: center;
+	max-width: 320px;
+	top: 30px;
+	left: 20px;
+	margin: 0 auto 20px;
+	padding-top: 27px;
+	font-family: ShowCard Gothic;
+	font-size: 24px;
+	color: #ffffff;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  }
+
+
+.container {
+  display: table;
+ padding-top: 100px; 
+  width: 100%;
+}
+
+.content {
+
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.sub-title {
+  display: inline;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 50%; 
+  top: 50%;
+  margin: 1px auto;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+
+.container1 {
+  display: table;
+ padding-top: 60px;
+  width: 100%;
+}
+
+.content1 {
+
+  display:table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+
+ 
+
+
+.sub-title1 {
+  display:inline;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 50%;
+  top: 50%;
+  margin: 1px auto;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.container2 {
+  display: table;
+padding-top:60px;
+  width: 100%;
+}
+
+.content2 {
+
+  display:table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+
+ 
+
+
+.sub-title2 {
+  display:inline;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 50%;
+  top: 50%;
+  margin: 1px auto;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+
+.Box1
+{
+	display:none;
+	position: absolute;
+	left: 30px;
+	top: 250px;
+	width: 70px;
+	height: 71px;
+}
+
+.Box2
+{
+	display:none;
+	position: absolute;
+	left: 505px;
+	top: 250px;
+	width: 70px;
+	height: 71px;
+}
+
+.Box3
+{
+	display:none;
+	position: absolute;
+	left: 975px;
+	top: 250px;
+	width: 70px;
+	height: 71px;
+}
+
+.Box1Mobile
+{
+	display:none;
+	position: relative;
+	left: 12px;
+	top: 322px;
+	max-width: 70% !important;
+	height: auto;
+}
+
+.Box2Mobile
+{
+	display:none;
+	position: relative;
+	text-align: center;
+	left: 505px;
+	top: 250px;
+	max-width: 70% !important;
+	height: auto;
+}
+
+.Box3Mobile
+{
+	display:none;
+	position: relative;
+	text-align: center;
+	left: 975px;
+	top: 250px;
+	max-width: 70% !important;
+	height: auto;
+}
+
+
+#Im {
+	max-width:40% !important;
+    height:auto;
+    float: left;
+	border-radius:3px;
+	border:3px solid white;
+    margin: 10px 10px 10px 10px; 
+}
+
+
+.ParagraphFirstCar
+{
+	display:none;
+	position: relative;
+	left: 102px;
+	top: 519px;
+	font-family: Arial;
+	font-size: 16px;
+	right: 946px;
+	color: #f5f6fb;
+}
+
+.ParagraphSecondCar
+{
+	display:none;
+	position: relative;
+	left: 577px;
+	top: 519px;
+	font-family: Arial;
+	font-size: 16px;
+	right: 471px;
+	color: #f5f6fb;
+}
+
+.ParagraphThirdCar
+{
+	display:none;
+	position: relative;
+	left: 1047px;
+	top: 519px;
+	font-family: Arial;
+	font-size: 16px;
+	right: 6px;
+	color: #f5f6fb;
+}
+
+.CopyrightResponsiveNews
+{
+	display:block;
+	position: relative; 
+	text-align: center;
+	top: -5px; 
+	left: 20px;
+	font-family: Gautami;
+	font-size: 16px;
+	color: #ffffff;
+}

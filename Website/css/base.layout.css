@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import "menu.navigation.styles.css";
+
+
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+		
+}
+
+body {
+	height:auto;
+    position: absolute;
+	text-align: center;  	
+	left:0px;
+	top:0px;
+	right:0px;
+    margin: auto;
+ 	background-image: url(../images/Background2.png);  
+	background-size: fixed;
+} 
+
+.header-image {    
+	display:none;
+    position:absolute;
+    top:0;
+    bottom:0;   
+    max-height:1000px;
+    overflow:hidden;    
+      left: 0; 
+      right: 0;
+    z-index:-1;         
+   border: 0;   
+}
+
+.header {
+	display:none;
+    width: 100%;
+    padding-top:50px;
+    margin-top:-10px;       
+}
+
+
+.header-image img {
+	display:none;
+    width: 100%;
+}
+
+.footer-image {    
+	display:none;
+    position:absolute;
+    top:300px;
+    bottom:0;   
+    overflow:hidden;    
+      left: 0; 
+      right: 0;
+    z-index:-1;         
+   border: 0;   
+}
+
+.footer {
+	display:none;
+    width: 100%;
+    padding-top:50px;
+    margin-top:-10px;	
+}
+
+
+.footer-image img {
+	display:none;
+    width: 100%;
+}
+
+
+.Header {
+	position:absolute;
+	left:625px;
+	top:120px;
+	width:792px;
+	height:77px;
+} 
+
+.HeaderFire {
+	display: block;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:20%;
+}
+
+
+.FooterFire
+{
+	position:absolute;
+	left:0px;
+	top:690px;
+	width:100%;
+	height:20%;
+ 
+}
+
+#Logo
+{
+	position: absolute;
+	top: 90px;
+	left: 50px;
+}
+
+#element {
+	position: absolute;
+ 	left: 20px; 
+	max-width: 380px;
+	top: 710px;
+	font-family: ShowCard Gothic;
+	font-size: 24px;
+	color: #ffffff;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#element2
+{
+	position: absolute;
+	left: 100px;
+	top: 740px;
+	font-family: ShowCard Gothic;
+	font-size: 24px;
+	color: #ffffff;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+    
+.SocialIcons {
+	position:absolute;
+	left: 1125px;
+	top:750px;
+	width:50px;
+	height:51px;
+  
+}
+
+.SocialIcons2 {
+	position:absolute;
+	left: 1195px;
+	top:750px;
+	width:50px;
+	height:51px;
+  
+}
+
+.SocialIcons3
+{
+	position:absolute;
+	left: 1265px;
+	top:750px; 
+	width:50px;
+	height:51px;
+}
+
+.socialicons2 {
+	display: none;
+	position:relative;
+	text-align:center;
+	margin: 50px auto;
+	
+}
+
+  
+ .events {
+  list-style: none;
+
+  }  
+
+
+.Copyright
+{
+	position: absolute; 
+	text-align: center;
+	top: 768px; 
+	left: 430px;
+	font-family: Gautami;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+
+
+.Content1 {
+	position:absolute;
+	left:0px;
+	top:100px;
+	width:1366px;
+	height:491px;
+}
+
+
+
+
+.Content1 .animcontainer
+{
+    text-align: center;
+}
+ 
+
+::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+
+ 
+::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(1,3,4,0.3);   
+      	background-color: #7b6c6c;
+}
+    
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    -webkit-box-shadow: inset 0 0 6px rgba(55,55,55,50); 
+} 
+
+

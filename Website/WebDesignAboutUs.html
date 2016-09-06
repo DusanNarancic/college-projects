@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>WebDesign</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet"  media="screen and (min-width: 1366px)" href="css/base.layout.css" type="text/css" />
+<link rel="stylesheet"  media="screen and (min-width: 1366px)" href="css/website.aboutUs.css" type="text/css" />
+<link rel="stylesheet" media="screen and (max-width: 1365px)" href="css/base.layout.mobile.css" type="text/css" />
+<link rel="stylesheet" media="screen and (max-width: 1365px)" href="css/website.vehicles.mobile.css" type="text/css" />
+<link rel="stylesheet" media="screen and (max-width: 1365px)" href="css/website.aboutUs.mobile.css" type="text/css" />
+
+<script type="text/javascript" src="javascript/jquery-1.11.2.min.js"></script>
+
+<style>
+        canvas{ margin-left: 320px;}
+        .subdiv{width: 320px; padding-top: 100px; padding-left: 190px;}
+        .text{ width: 290px;}
+    </style>
+ 
+    <script type="text/javascript">
+        var can, ctx, step, steps = 0,
+              delay = 20;
+ 
+        function init() {
+            can = document.getElementById("MyCanvas1");
+            ctx = can.getContext("2d");
+            ctx.fillStyle = "white";
+            ctx.font = "20pt Verdana";
+            ctx.textAlign = "center";
+            ctx.textBaseline = "middle";
+            step = 0;
+            steps = can.width + 50;
+            RunTextLeftToRight();
+        }
+ 
+        function RunTextLeftToRight() {
+            step++;
+            ctx.clearRect(0, 0, can.width, can.height);
+            ctx.save();
+            ctx.translate(step, can.height / 2);
+            ctx.fillText("Welcome to our website", 0, 0);
+            ctx.restore();
+            if (step == steps)
+                step = 0;
+            if (step < steps)
+                var t = setTimeout('RunTextLeftToRight()', delay);
+        }
+    </script>
+   
+
+   
+	<script type="text/javascript">
+var resizeTimer;
+
+$(window).on('resize', function(e) {
+
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(function() {
+     
+     location.reload();
+            
+  }, 250);
+
+});
+</script>    
+   
+</head>
+<body  onload="init();">
+
+
+<header>	
+
+<div class="header-image"><img  src="images/Fire2.png"  alt=""/></div>
+
+	<div class="HeaderFire">
+	<img id="" src="images/Fire2.png" width="1425" height="80px" alt=""/>
+	</div>
+</header>
+
+
+ <div class="Content1"> 
+         <div class="animcontainer" > 
+                <script>
+                   var w = window.innerWidth;
+                   if (w>1365)
+                        document.writeln("<canvas id=\"MyCanvas1\" width=\"350\" height=\"20\"></canvas>"); 
+                     else document.write("<img class=\"responsiveLogo\" src=\"images/ChangeForHTML5Animation.png\">");  
+               
+               </script> 
+	    </div> 
+		</div> 
+
+ 
+
+ <img id="Logo"  src="images/AllTimerLogo.png" width="360px" height="150px" alt="" /> 
+ 
+<div class="Header">
+	<nav id="MenuForNavigation">
+	<ul id="MenuForNavigationUL">
+	<li>
+	<a href="WebDesignHome.html">HOME</a>
+	</li>
+	<li>
+	<a href="WebDesignVehicles.html">VEHICLES</a>
+	</li>
+	<li>
+	<a href="WebDesignNews.html">NEWS</a>
+	</li>
+	<li>
+	<a href="WebDesignContact.html">CONTACT</a>
+	</li>
+	<li>
+	<a href="WebDesignAboutUs.html" class="selected">ABOUT US</a>
+	</li>
+	</ul>
+</nav>
+</div>
+
+<h1 class="Title">ABOUT US</h1>
+
+	<img id="ImageOfCompany" src="images/CarHouse.jpg" width="348px" height="240px" /> 
+
+
+   <p class="ParagraphUnderTitle">Dred Company over fifteen years of experience in importing and selling used cars and 
+trucks. In our salon we offer a wide selection of vehicles of new generation of renowned 
+manufacturers.Used cars from our carefully selected taking into account the wishes 
+and needs of our customers.Our suppliers are well known and positioned leasing 
+companies from the European Union. Our job and mission is to provide our customers
+with quality and reliable vehicleat the best price. Check out why our offer cars apart
+from others.
+Our technical inspection offers the possibility of payment of all fees and collecting
+the necessary documents for the registration of vehicles in any registration area.
+We issue temporary license plates to transport the car to the destination. 
+Our service provides quality and affordable repair services for all makes and types
+of vehicles with accompanying guarantees.</p>  
+
+
+
+   <div class="container">
+    <div class="content">
+	<p class="sub-title"><img id="Im" src="images/CarHouse.jpg"></img>Dred Company over fifteen years of experience in importing and selling used cars and 
+trucks. In our salon we offer a wide selection of vehicles of new generation of renowned 
+manufacturers.Used cars from our carefully selected taking into account the wishes 
+and needs of our customers.Our suppliers are well known and positioned leasing 
+companies from the European Union. Our job and mission is to provide our customers
+with quality and reliable vehicle at the best price. Check out why our offer cars apart
+from others.
+Our technical inspection offers the possibility of payment of all fees and collecting
+the necessary documents for the registration of vehicles in any registration area.
+We issue temporary license plates to transport the car to the destination. 
+Our service provides quality and affordable repair services for all makes and types
+of vehicles with accompanying guarantees
+</p>
+	</div>
+  </div> 
+	
+
+<footer>
+	
+		  <ul class="events"> 
+ <li><h4>DON'T TRUST YOUR LUCK! TRUST OUR REPUTATION!</h4></li>
+</ul>  
+	
+	<div class="socialiconsAboutUs">
+<a href="https://www.linkedin.com"><img src="images/Linkedin.png" width="50" height="51" alt=""/></a>
+<a href="https://www.facebook.com"><img src="images/Facebook.png" width="50" height="51" alt=""/></a>
+<a href="https://twitter.com"><img src="images/Twitter.png" width="50" height="51" alt=""/></a>
+</div>
+	
+		<div class="FooterFire">
+	<img id="" src="images/Fire.png" width="1425" height="125px" alt=""/>
+ </div>
+	
+ <div class="SocialIcons">
+<a href="https://www.linkedin.com"><img src="images/LinkedinBaseLayout.png" width="50" height="51" alt=""/></a>
+</div>
+
+<div class="SocialIcons2">
+<a href="https://www.facebook.com"><img src="images/FacebookBaseLayout.png" width="50" height="51" alt=""/></a>
+</div>
+
+
+<div class="SocialIcons3">
+<a href="https://twitter.com"><img src="images/TwitterBaseLayout.png" width="50" height="51" alt=""/></a>
+</div>
+
+
+<div id="element">
+<p><b>DON'T TRUST YOUR LUCK!</b></p>	
+</div>
+
+<div id="element2">
+<p><b>TRUST OUR REPUTATION!</b></p>
+</div>
+
+<div class="Copyright">
+<p><b>2015 COPYRIGHT DUSAN NARANCIC. ALL RIGHTS RESERVED</b></p>
+</div> 
+
+<div class="CopyrightResponsiveAboutUs">
+<p><b>2015 COPYRIGHT DUSAN NARANCIC. ALL RIGHTS RESERVED</b></p>
+</div> 
+
+<div class="footer-image"><img  src="images/Fire.png"  alt=""/></div>
+
+</footer>
+
+
+
+</body>
+</html>

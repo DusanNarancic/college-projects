@@ -1,0 +1,60 @@
+   .socialiconsHome {
+	display: none;
+	position:relative;
+	text-align:center;
+	margin-top: 30px;
+  }
+  
+  
+     h6{
+	display:none;
+	position: relative;
+	text-align: center;
+	max-width: 320px;
+	top: -100px;
+	left: 20px;
+	margin: 0 auto 20px;
+	padding-top: 27px;
+	font-family: ShowCard Gothic;
+	font-size: 24px;
+	color: #ffffff;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  }
+ 
+   .CopyrightHome
+{
+	display:none;
+	position: relative; 
+	text-align: center;
+	top: -5px; 
+	left: 20px;
+	font-family: Gautami;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.container {
+  display: none;
+ padding-top: 100px; 
+  width: 100%;
+}
+
+.content {
+
+  display: none;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.sub-title {
+  display: none;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 50%; 
+  top: 50%;
+  margin: 1px auto;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+}

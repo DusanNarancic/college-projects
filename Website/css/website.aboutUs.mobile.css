@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+ .Title
+{
+	position:relative;
+	top: 150px;
+	text-align: center;
+	font-size: 24px;
+	font-family: Arial;
+	color: #ffffff;
+}
+
+  h4{
+	display:block;
+	position: relative;
+	text-align: center;
+	max-width: 320px;
+	top: 30px;
+	left: 20px;
+	margin: 0 auto 20px;
+	padding-top: 27px;
+	font-family: ShowCard Gothic;
+	font-size: 24px;
+	color: #ffffff;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  }
+
+ 
+#Im {
+	max-width:40% !important;
+    height:auto;
+    float: left;
+	border-radius:3px;
+	border:3px solid white;
+    margin: 10px 10px 10px 10px;
+}
+
+
+ .ParagraphUnderTitle
+{
+	display: none;
+ 	position: absolute;
+	text-align: center;
+	left: 550px;
+	top: 320px;
+	right: 166px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #ffffff; 
+} 
+
+.container {
+  display: table;
+ padding-top: 170px;
+  width: 100%;
+}
+
+.content {
+
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+
+ 
+
+.sub-title {
+   display: inline;
+   text-align: center;
+   color: #ffffff;
+   padding-right: 50%;
+  top: 50%;
+  margin: 1px auto;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.socialiconsAboutUs {
+  display: block;
+  position:relative;
+  text-align:center;
+  margin-top: 30px;
+}
+  
+ .events2 {
+  list-style: none;
+  }  
+
+#ImageOfCompany
+{
+  display: none;
+  float: left;
+  margin-bottom: 0px;
+  margin-right: 1%;
+}
+
+.CopyrightResponsiveAboutUs
+{
+	display:block;
+	position: relative; 
+	text-align: center;
+	top: -5px; 
+	left: 20px;
+	font-family: Gautami;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+
+

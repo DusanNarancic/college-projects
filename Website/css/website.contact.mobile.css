@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+ 
+ .Title
+{
+	position:relative;
+	left: 30px;
+	top: 80px;
+	text-align: center;
+	font-size: 24px;
+	font-family: Arial;
+	color: #ffffff;
+}
+
+h3{
+	display:block;
+	position: relative;
+	text-align: center;
+	max-width: 320px;
+	top: 30px;
+	left: 20px;
+	margin: 0 auto 20px;
+	padding-top: 27px;
+	font-family: ShowCard Gothic;
+	font-size: 24px;
+	color: #ffffff;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  }
+
+ .socialiconsContact {
+	display: block;
+	position:relative;
+	text-align:center;
+	margin-top: 30px;
+  }
+  
+ .Input1
+{	
+	position: relative;
+	text-align: center;
+ 	left: 85px; 
+	top: 170px;
+	max-width: 22%;
+	height: 10%;
+	background-color: #c52426;
+	color: #ffffff;
+	border: 0;
+	
+}
+
+.Input2
+{
+	position: relative;
+	text-align: center;
+	left: 85px; 
+	top: 190px;
+	max-width: 22%;
+	height: 10%; 
+	text-align: center;
+	background-color: #c52426;
+	color: #ffffff;
+	border: 0;
+}
+
+.Input3
+{
+	position: relative;
+	text-align: center;
+	left: 85px; 
+	top: 210px;
+	max-width: 22%;
+	height: 10%;
+	background-color: #c52426;
+	color: #ffffff;
+	border: 0;
+}
+
+ .TextArea
+{
+	position: relative;
+	text-align: center;
+	top: 230px;
+	left: 85px;
+	max-width: 22%;
+	height: 10%;
+	background-color: #c52426;
+	color: #ffffff;
+	border: 0;
+} 
+
+.Button
+{
+	position: relative;
+	text-align: center;
+	top: 250px;
+	left: 85px;
+	background-color: #c52426;
+	color: #ffffff;
+	border: 0;
+	max-width: 22%;
+	height: 6%;
+} 
+
+ .ImageGoogleMap
+{
+	display: none;
+	margin-top: 30%;
+	text-align:center;
+	width: 100%;
+	height: auto;
+}     
+
+#Im {
+	display: inline;
+	max-width:70% !important;
+    height:auto;
+    float: left;
+	border-radius:3px;
+	border:3px solid white;
+    margin: 10px 10px 10px 200px;
+}
+
+.container {
+  display: table;
+ padding-top: 10px; 
+ padding-left: 10%;
+  width: 80%;
+}
+
+.content {
+
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+
+.sub-title {
+  display: inline;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 20%;
+  top: 90%;
+  margin: 1px auto;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.CopyrightResponsiveContact
+{
+	display:block;
+	position: relative; 
+	text-align: center;
+	top: -5px; 
+	left: 20px;
+	font-family: Gautami;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #ffffff;
+
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ffffff;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ffffff;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #ffffff;
+}
+
+  

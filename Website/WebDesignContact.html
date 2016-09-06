@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>WebDesign</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" media="screen and (min-width: 1366px)" href="css/base.layout.css" type="text/css" />
+<link rel="stylesheet" media="screen and (min-width: 1366px)" href="css/website.contact.css" type="text/css" />
+<link rel="stylesheet" media="screen and (max-width: 1365px)" href="css/base.layout.mobile.css" type="text/css" />
+<link rel="stylesheet" media="screen and (max-width: 1365px)" href="css/website.contact.mobile.css" type="text/css" />
+
+<script type="text/javascript" src="javascript/jquery-1.11.2.min.js"></script>
+
+<style>
+        canvas{ margin-left: 320px;}
+        .subdiv{width: 320px; padding-top: 100px; padding-left: 190px;}
+        .text{ width: 290px;}
+    </style>
+ 
+    <script type="text/javascript">
+        var can, ctx, step, steps = 0,
+              delay = 20;
+ 
+        function init() {
+            can = document.getElementById("MyCanvas1");
+            ctx = can.getContext("2d");
+            ctx.fillStyle = "white";
+            ctx.font = "20pt Verdana";
+            ctx.textAlign = "center";
+            ctx.textBaseline = "middle";
+            step = 0;
+            steps = can.width + 50;
+            RunTextLeftToRight();
+        }
+ 
+        function RunTextLeftToRight() {
+            step++;
+            ctx.clearRect(0, 0, can.width, can.height);
+            ctx.save();
+            ctx.translate(step, can.height / 2);
+            ctx.fillText("Welcome to our website", 0, 0);
+            ctx.restore();
+            if (step == steps)
+                step = 0;
+            if (step < steps)
+                var t = setTimeout('RunTextLeftToRight()', delay);
+        }
+    </script>
+
+		<script type="text/javascript">
+var resizeTimer;
+
+$(window).on('resize', function(e) {
+
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(function() {
+     
+     location.reload();
+            
+  }, 250);
+
+});
+</script>    
+	
+</head>
+<body  onload="init();">
+
+
+<header>
+
+<div class="header-image"><img  src="images/Fire2.png"  alt=""/></div>
+
+<div class="HeaderFire">
+	<img id="" src="images/Fire2.png" width="1425" height="80px" alt=""/>
+</header>
+
+
+ <div class="Content1"> 
+         <div class="animcontainer" > 
+                <script>
+                   var w = window.innerWidth;
+                   if (w>1365)
+                        document.writeln("<canvas id=\"MyCanvas1\" width=\"350\" height=\"20\"></canvas>"); 
+                     else document.write("<img class=\"responsiveLogo\" src=\"images/ChangeForHTML5Animation.png\">");  
+               
+               </script> 
+	    </div> 
+		</div> 
+
+
+ <img id="Logo"  src="images/AllTimerLogo.png" width="360px" height="150px" alt="" /> 
+
+<div class="Header">
+	<nav id="MenuForNavigation">
+	<ul id="MenuForNavigationUL">
+	<li>
+	<a href="WebDesignHome.html">HOME</a>
+	</li>
+	<li>
+	<a href="WebDesignVehicles.html">VEHICLES</a>
+	</li>
+	<li>
+	<a href="WebDesignNews.html">NEWS</a>
+	</li>
+	<li>
+	<a href="WebDesignContact.html" class="selected">CONTACT</a>
+	</li>
+	<li>
+	<a href="WebDesignAboutUs.html">ABOUT US</a>
+	</li>
+	</ul>
+</nav>
+</div>
+
+
+<h1 class="Title">CONTACT</h1>
+ 
+      <form name="myForm">  
+  <input placeholder="First name" type="text" name="firstname" class="Input1"></br>
+ <input placeholder="Last name" type="text" name="lastname" class="Input2"></br>
+ <input placeholder="Email" type="text" name="email" class="Input3"></br>	
+ <textarea placeholder="Message" rows="4" cols="26" class="TextArea" name="TextArea"></textarea>  
+ </form>
+   <button type="button" class="Button" onclick="FunkcijaAlert()">SEND MESSAGE</button>   
+   
+   
+
+    <div class="container">
+    <div class="content">
+	<p class="sub-title"><form name="myForm">  
+	<img id="Im" src="images/GoogleMap.png"></img>
+</p>
+	</div>
+	</div>
+    
+
+
+    <script> 
+function FunkcijaAlert() {
+         var x = document.forms["myForm"]["firstname"].value;
+		  var y = document.forms["myForm"]["lastname"].value;
+		  var z = document.forms["myForm"] ["email"].value;
+		  var d = document.forms["myForm"] ["TextArea"].value;
+ if (x == null || x == "") {
+        alert("First name must be filled out");
+        return false;
+    }		 
+	
+	  else if(y == null || y == "") {
+        alert("Last name must be filled out");
+        return false;
+    } 
+	  else if(z == null || z == "") {
+        alert("Email must be filled out");
+        return false;
+    } 
+	
+	 else if(d == null || d == "") {
+        alert("Textarea must be filled out");
+        return false;
+    } 
+	
+	else
+	{
+		alert("Your message is sent.");
+	}
+	
+	
+
+   
+}
+</script> 
+  
+  
+  
+   
+<div class="ImageGoogleMap">
+	<img id="" src="images/GoogleMap.png" width="390px" height="290px" />
+ </div> 
+  
+
+<footer>
+	
+	<div class="FooterFire">
+		<img id="" src="images/Fire.png" width="1425" height="125px" alt=""/>
+	</div>
+
+    <ul class="events">
+ <li><h3>DON'T TRUST YOUR LUCK! TRUST OUR REPUTATION!</h3></li>
+</ul>   
+
+ <div class="socialiconsContact">
+<a href="https://www.linkedin.com"><img src="images/Linkedin.png" width="50" height="51" alt=""/></a>
+<a href="https://www.facebook.com"><img src="images/Facebook.png" width="50" height="51" alt=""/></a>
+<a href="https://twitter.com"><img src="images/Twitter.png" width="50" height="51" alt=""/></a>
+</div>
+	
+ <div class="SocialIcons">
+<a href="https://www.linkedin.com"><img src="images/LinkedinBaseLayout.png" width="50" height="51" alt=""/></a>
+</div>
+
+<div class="SocialIcons2">
+<a href="https://www.facebook.com"><img src="images/FacebookBaseLayout.png" width="50" height="51" alt=""/></a>
+</div>
+
+
+<div class="SocialIcons3">
+<a href="https://twitter.com"><img src="images/TwitterBaseLayout.png" width="50" height="51" alt=""/></a>
+</div>
+
+
+<div id="element">
+<p><b>DON'T TRUST YOUR LUCK!</b></p>	
+</div>
+
+<div id="element2">
+<p><b>TRUST OUR REPUTATION!</b></p>
+</div>
+
+
+<div class="Copyright">
+<p><b>2015 COPYRIGHT DUSAN NARANCIC. ALL RIGHTS RESERVED</b></p>
+</div>
+
+<div class="CopyrightResponsiveContact">
+<p><b>2015 COPYRIGHT DUSAN NARANCIC. ALL RIGHTS RESERVED</b></p>
+</div>
+
+<div class="footer-image"><img  src="images/Fire.png"  alt=""/></div>
+
+</footer>
+
+
+</body>
+</html>

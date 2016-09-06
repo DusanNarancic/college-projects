@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import "menu.navigation.styles.mobile.css";
+
+
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+
+body {
+ 	background: url(../images/Background3.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	 background-attachment: fixed;
+	  background-size: cover;
+}
+
+@media only screen and (max-width: 1365px) {
+  body {
+ background-image: url(../images/Background3.png); 
+  }
+	}
+	
+	
+	.header-image {    
+    position:fixed;
+    top:0;
+    bottom:0;   
+    overflow:hidden;    
+    left: 0; 
+	right: -20px;
+    z-index:-1;         
+	border: 0;   
+}
+
+.header {
+    width: 110%;
+    padding-top:50px;
+    margin-top:-10px;       
+}
+
+
+.header-image img {
+    max-width: 110%;
+	max-height: 80px;
+}
+
+.footer-image {    
+  position: fixed;
+	padding-top: 600px;
+    bottom:0;   
+    overflow:hidden;    
+      left: 0; 
+      right: 0;
+    z-index:-1;         
+   border: 0; 
+   
+}
+
+.footer {
+    width: 110%;
+    padding-top:50px;
+    margin-top:-10px;	
+}
+
+
+.footer-image img {
+    width: 110%;
+	max-height: 65px;
+}
+	
+	
+.Header {
+	text-align: center;
+	width:100%;
+	top: 220px;
+	left: 10px;
+}
+
+
+
+.HeaderFire {
+	display:none;
+	position: relative;
+	text-align: center;
+	max-width:100%;
+	height: auto;
+	top: 0px;
+	left: 0px;	
+}
+
+
+
+
+.FooterFire
+{
+	display: none;
+	position: relative;
+	text-align: center;
+	width:100%;
+	height:auto;
+	left: 0;
+	bottom: 0; 
+}
+
+#Logo
+{
+	max-width:70% !important;
+    height:auto;
+    display:block;
+	padding-top: 70px;
+}
+ 
+
+
+#element {
+	display:none;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	top:340px; 
+	font-family: ShowCard Gothic;
+	font-size: 20px;
+	color: #ffffff;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#element2
+{
+	display:none;
+  	position: relative;  
+	text-align: center;
+ 	max-width: 490px;
+ 	top: 370px; 
+	font-family: ShowCard Gothic;
+	font-size: 24px;
+	color: #ffffff;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+ .events
+{
+	list-style: none;
+} 
+    
+
+.socialicons2 {
+	display: block;
+	position:relative;
+	text-align:center;
+	margin-top: 30px;
+} 
+
+
+ .SocialIcons {
+	display: none;
+	text-align: center;
+ 	padding-top: 37px; 
+	left:105px; 
+	width:50px;
+	height:51px;
+  
+}
+
+
+
+.SocialIcons2 {
+	
+	display:none;
+	text-align: center;
+	padding-top: 37px;
+	left:175px;
+	width:50px;
+	height:51px;
+  
+}
+
+.SocialIcons3
+{
+	display:none;
+	text-align: center;
+	left:245px;   
+	padding-top: 37px;
+	width:50px;
+	height:51px;
+}
+
+.Copyright
+{
+	display:none;
+	position: relative;
+	text-align: center;
+ 	max-width: 100%; 
+	top: 200px;
+	font-family: Gautami;
+	font-size: 16px;
+	color: #ffffff;
+
+} 
+ 
+ 
+ .Content1 {
+
+    width: 100%;
+    
+}
+
+
+.Content1 .animcontainer
+{
+    text-align: center;
+    padding: 0.5em;
+}
+
+
+.Content1 .responsiveLogo
+{
+    height: 70%
+ 
+}
+
+::-webkit-scrollbar {
+
+    width: 15px;
+
+}
+
+
+ 
+ ::-webkit-scrollbar-track {
+		
+      -webkit-box-shadow: inset 0 0 6px rgba(1,3,4,0.3);   
+      	background-color: #7b6c6c;
+}
+  
+::-webkit-scrollbar-thumb {
+
+    border-radius: 30px;
+    -webkit-box-shadow: inset 0 0 6px rgba(55,55,55,50); 
+}
+
+

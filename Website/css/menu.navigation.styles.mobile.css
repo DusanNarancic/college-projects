@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.MenuForNavigation
+{
+  padding-top: 0.3125em;  
+}
+
+
+.Header nav ul li {
+    display:inline-block;  
+    list-style: none;
+    margin-right: 2.500em;
+     padding-top: 2em; 
+ 	/* padding-top: 0.6em; */
+}
+
+.Header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family:Arial;
+    font-size: 1.25em;
+}
+
+.Header ul li a:hover {
+    color: #fbfafa;
+    font-weight: bold;
+    border-bottom: 0.3125em solid #c52426;
+    padding-top: 1.563em;
+    padding-bottom: 1.375em;
+}
+
+.selected {
+    color: #fbfafa !important;
+    font-weight: bold;
+    border-bottom: 0.3125em solid #c52426;
+    padding-top: 1.563em;
+    padding-bottom: 1.375em;
+}
